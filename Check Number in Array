@@ -1,0 +1,28 @@
+Sample Input :
+3
+9 8 10
+8
+Sample Output :
+true
+
+
+
+
+
+
+bool checkNumber(int input[], int size, int x) {
+  /* Don't write main().
+     Don't read input, it is passed as function argument.
+     Return output and don't print it.
+     Taking input and printing output is handled automatically.
+  */
+  if(size==1)
+  {
+    return false;
+  }
+  if(x==input[size-1])
+    return true;//humme apna kaam pehle
+  
+  bool ans= checkNumber(input,size-1,x);
+  return ans;
+}
