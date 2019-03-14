@@ -1,0 +1,27 @@
+Sample Input :
+3
+9 8 9
+Sample Output :
+26
+
+
+
+
+
+
+
+
+
+
+int sum(int input[], int n) {
+  /* Don't write main().
+     Don't read input, it is passed as function argument.
+     Return output and don't print it.
+     Taking input and printing output is handled automatically.
+  */
+  int ans;
+if(n==1)
+  return input[0];
+  ans=sum(input,n-1)+input[n-1];
+  return ans;
+}
