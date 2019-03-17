@@ -1,0 +1,61 @@
+Sample Input:
+23
+Sample Output:
+ad
+ae
+af
+bd
+be
+bf
+cd
+ce
+cf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <string>
+using namespace std;
+
+string helper(int n)
+{
+  string mapping[10]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+  return mapping[n];
+}
+int keypad(int num, string output[]){
+    /* Insert all the possible combinations of the integer number into the output string array. You do not need to
+    print anything, just return the number of strings inserted into the array.
+    */
+  int i=0;
+  if(num==0)
+  {
+    output[0]="";
+    return 1;
+  }
+  string temp[1000];
+  int s=keypad(num/10,temp);
+  int a=num%10;
+ string c= helper(a);
+  i=0;
+    for(int j=0;j<s;j++)
+    {
+      for(int k=0;k<c.size();k++)
+      {
+        output[i]=temp[j]+c[k];
+        i++;
+      }
+    }
+  
+  return i;
+}
+
