@@ -11,7 +11,8 @@ int countZeros(int n) {
     
     int ans=0;
   if(n==0)
-  {return 0; 
+  {
+  return 0; 
   }
    ans=countZeros(n/10)+ans;
   if(n%10==0)
