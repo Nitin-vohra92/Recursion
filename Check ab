@@ -1,13 +1,11 @@
+/*
+
 Sample Input:
 abb
 Sample Output:
 true
 
-
-
-
-
-
+*/
 
 bool help(char input[])
 {
@@ -21,7 +19,8 @@ if(input[0]=='b')
     bool b=help(input+2);
     if(b==1)
       return true;
-    else{
+    else
+    {
       return false;
     }
   }
