@@ -1,3 +1,6 @@
+/*
+
+FUNCTION ONLY
 Sample Input :
 6
 2 3 4 5 6 8 
@@ -5,7 +8,7 @@ Sample Input :
 Sample Output:
 3 
 
-
+*/
 
 
 
@@ -50,7 +53,7 @@ int helper(int input[],int start,int end,int element)
   
 }
 int binarySearch(int input[], int size, int element) {
-    // Write your code here
+   
   int start=0;
   int end=size-1;
   int z=helper(input,start,end,element);
