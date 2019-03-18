@@ -18,12 +18,13 @@ bool isPalindrome(char input[],int start,int end)
 
   if(input[start]==input[end])
   {
-    bool ans = isPalindrome(input,start+1,end-1);//base case humesha joh change ho raha hai
+    bool ans = isPalindrome(input,start+1,end-1);
     if(ans == true)
     {
       return true;
     }
-    else{
+    else
+    {
       return false;
     }
   }
