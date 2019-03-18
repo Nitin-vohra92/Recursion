@@ -1,15 +1,15 @@
+/*
+
 Sample Input :
 10204
 Sample Output
 2
 
-
-
-
+*/
 
 int countZeros(int n) {
-    // Write your code here
-  int ans=0;
+    
+    int ans=0;
   if(n==0)
   {return 0; 
   }
@@ -18,9 +18,9 @@ int countZeros(int n) {
   {
     return ans+1;
   }
-  else{return ans;}
+  else{
+  return ans;
+  }
  
 
  }
-
-
