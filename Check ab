@@ -36,12 +36,13 @@ if(input[0]=='a')
   else
     return false;
 }
+
 }
 
 
 
 bool checkAB(char input[]) {
-	// Write your code here
+	
 if(input[0]=='a')
 {
  bool a=help(input+1);
