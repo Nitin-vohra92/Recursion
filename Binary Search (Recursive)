@@ -14,18 +14,12 @@ Sample Output:
 
 
 
-
-
-
-
-input - input array
-// size - length of input array
-// element - value to be searched
 int middle(int start,int end)
 {
   int a=(start+end)/2;
   return a;
 }
+//MAIN BINARY SEARCH
 int helper(int input[],int start,int end,int element)
 {
   if(start>=end)
@@ -33,7 +27,7 @@ int helper(int input[],int start,int end,int element)
     if(input[start]==element)
     return start;
     else
-      return -1;
+    return -1;
   }
   int mid=middle(start,end);
   if(input[mid]==element)
