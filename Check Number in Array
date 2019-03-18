@@ -12,7 +12,8 @@ true
 
 
 
-bool checkNumber(int input[], int size, int x) {
+bool checkNumber(int input[], int size, int x)
+{
  
   if(size==1)
   {
@@ -22,5 +23,6 @@ bool checkNumber(int input[], int size, int x) {
     return true;
   
   bool ans= checkNumber(input,size-1,x);
+  
   return ans;
 }
