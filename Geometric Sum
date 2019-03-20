@@ -1,5 +1,5 @@
 /*
-
+FUNCTION ONLY
 
 Given k, find the geometric sum i.e.
 1 + 1/2 + 1/4 + 1/8 + ... + 1/(2^k) 
@@ -18,13 +18,20 @@ Sample Output :
 
 
 #include<math.h>
-double geometricSum(int k) {
+double geometricSum(int k)
+{
+// BASE CASE
  if(k==0)
-  return 1.0;
-  double a=geometricSum(k-1);
-     double ans=a+1.0/(pow(2,k));
+ return 1.0;
+ 
+ //RECURSIVE CALL
+ double a=geometricSum(k-1);
+ 
+ //SMALL CALCULATION
+ double ans=a+1.0/(pow(2,k));
 
-  return ans;
+ return ans;
+
 }
 
 
