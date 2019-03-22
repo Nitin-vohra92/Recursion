@@ -14,16 +14,17 @@ x*xy*y
 // Changing in the given string itself
 
 #include<cstring>
-void pairStar(char input[]) {
+void pairStar(char input[]) 
+{
 
-int len=0;
+  int len=0;
   for(int i=0;input[i]!=0;i++)
     len++;
   if(input[0]==0)
   return;
   
   pairStar(input+1);
-    len=strlen(input);
+  len=strlen(input);
 
   if(input[0]==input[1])
   {
@@ -32,6 +33,6 @@ int len=0;
       input[i+1]=input[i];
     }
     input[1]='*';
- 
   }
+  
 }
