@@ -30,7 +30,8 @@ void helper2(int number,string output="")
 {
   
   if(number==0)
-  {   cout<<output<<endl;
+  {  
+  cout<<output<<endl;
   return;
   }
   int c=(number%10);
@@ -44,7 +45,8 @@ void helper2(int number,string output="")
       }
 }
 
-void printKeypad(int number) {
+void printKeypad(int number) 
+{
   helper2(number);
 }
 
