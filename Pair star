@@ -1,3 +1,5 @@
+/*
+
 Sample Input 1 :
 hello
 Sample Output 1:
@@ -7,15 +9,14 @@ xxyy
 Sample Output 2:
 x*xy*y
 
+*/
 
+// Changing in the given string itself
 
-
-
-// Change in the given string itself. So no need to return or print the changed string.
 #include<cstring>
 void pairStar(char input[]) {
- // Write your code here
- int len=0;
+
+int len=0;
   for(int i=0;input[i]!=0;i++)
     len++;
   if(input[0]==0)
