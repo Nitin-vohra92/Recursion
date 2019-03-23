@@ -13,7 +13,8 @@ Sample Output :
 // Change in the given string itself
 
  #include<cstring>
-void replacePi(char input[]) {
+void replacePi(char input[])
+{
 	
 
 int len=strlen(input);
