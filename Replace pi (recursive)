@@ -1,3 +1,5 @@
+/*
+
 Sample Input 1 :
 xpix
 Sample Output :
@@ -7,20 +9,12 @@ pipi
 Sample Output :
 3.143.14
 
+*/
+// Change in the given string itself
 
-
-
-
-
-
-
-
-
-
-// Change in the given string itself. So no need to return or print anything
-#include<cstring>
+ #include<cstring>
 void replacePi(char input[]) {
-	// Write your code here
+	
 
 int len=strlen(input);
   if(len==1||len==0)
