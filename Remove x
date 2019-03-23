@@ -1,19 +1,14 @@
+/*
+
 Sample Input 1 :
 xaxb
 Sample Output 1:
 ab
 
 
+*/
 
-
-
-
-
-
-
-
-
-// Change in the given string itself. So no need to return or print anything
+// Change in the given string itself
 
 void removeX(char input[]) {
     // Write your code here
