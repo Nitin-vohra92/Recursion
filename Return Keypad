@@ -36,7 +36,7 @@ int keypad(int num, string output[])
   string temp[1000];
   int s=keypad(num/10,temp);
   int a=num%10;
-  string c= helper(a);
+  string c = helper(a);
   i=0;
     for(int j=0;j<s;j++)
     {
