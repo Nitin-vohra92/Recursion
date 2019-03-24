@@ -24,7 +24,8 @@ string helper(int n)
   string mapping[10]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
   return mapping[n];
 }
-int keypad(int num, string output[]){
+int keypad(int num, string output[])
+{
    
    int i=0;
   if(num==0)
@@ -45,7 +46,6 @@ int keypad(int num, string output[]){
         i++;
       }
     }
-  
   return i;
 }
 
