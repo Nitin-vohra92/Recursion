@@ -9,8 +9,9 @@ Sample Output 1:
 
 
 #include <math.h>
-int stringToNumber(char input[]) {
-len=0;
+int stringToNumber(char input[])
+{
+   len=0;
   for(int i=0;input[i]!=0;i++)
    len++;
   
