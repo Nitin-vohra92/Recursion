@@ -9,12 +9,6 @@ Sample Output :
 
 
 
-
-
-
-
-
-
 int sumOfDigits(int n) 
 {
   
