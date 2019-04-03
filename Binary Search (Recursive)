@@ -10,10 +10,6 @@ Sample Output:
 
 */
 
-
-
-
-
 int middle(int start,int end)
 {
   int a=(start+end)/2;
