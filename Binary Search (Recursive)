@@ -19,7 +19,9 @@ int middle(int start,int end)
   int a=(start+end)/2;
   return a;
 }
+
 //MAIN BINARY SEARCH
+
 int helper(int input[],int start,int end,int element)
 {
   if(start>=end)
@@ -29,7 +31,9 @@ int helper(int input[],int start,int end,int element)
     else
     return -1;
   }
+  
   int mid=middle(start,end);
+  
   if(input[mid]==element)
     return mid;
   else if(input[mid]<element)
@@ -46,7 +50,8 @@ int helper(int input[],int start,int end,int element)
   }
   
 }
-int binarySearch(int input[], int size, int element) {
+int binarySearch(int input[], int size, int element)
+{
    
   int start=0;
   int end=size-1;
