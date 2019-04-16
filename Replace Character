@@ -11,7 +11,7 @@ xbxcd
 
 void replaceCharacter(char input[], char c1, char c2)
 {
-
+//BASE CASE
  if(input[0]==0)
    return;
    
@@ -19,7 +19,7 @@ void replaceCharacter(char input[], char c1, char c2)
   {
     input[0]=c2;
   }
-  
+  // RECURSIVE CALL
   replaceCharacter(input+1,c1,c2);
  
     
