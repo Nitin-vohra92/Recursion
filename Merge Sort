@@ -33,16 +33,16 @@ Sample Output:
   while(j< size2)
     ans[k++]=arr2[j++];
   
-  
   }
   
-void mergeSort(int input[], int size){
+void mergeSort(int input[], int size)
+{
   if(size==1)
     return;
   int a,b,i;
   if(size%2==0)
   {
-    a=size/2;
+     a=size/2;
      b=size/2;
   }
   else{
