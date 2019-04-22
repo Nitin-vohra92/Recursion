@@ -45,7 +45,8 @@ void mergeSort(int input[], int size)
      a=size/2;
      b=size/2;
   }
-  else{
+  else
+  {
     a=size/2;
     b=(size/2)+1;
   }
