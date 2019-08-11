@@ -16,6 +16,7 @@ if(n==1)
 {
   return m;
 }
+
 //RECURSIVE + SMALL CALCULATION
   int ans=multiplyNumbers(m,n-1)+m;
   return ans;
