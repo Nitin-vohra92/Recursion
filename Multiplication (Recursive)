@@ -6,8 +6,6 @@ Sample Output -
 15
 */
 
-
-
 int multiplyNumbers(int m, int n) {
 //BASE CASE
 if(n==1)
