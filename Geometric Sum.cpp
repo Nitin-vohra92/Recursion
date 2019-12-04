@@ -1,4 +1,5 @@
 /*
+
 FUNCTION ONLY
 
 Given k, find the geometric sum i.e.
