@@ -23,6 +23,7 @@ Sample Output:
       ans[k++] = arr1[i++];
     else
       ans[k++]= arr2[j++];
+   
   }
    
   while(i< size1)
