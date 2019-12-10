@@ -13,7 +13,7 @@ x*xy*y
 
 // Changing in the given string itself
 
-#include<cstring>
+#include<string.h>
 void pairStar(char input[]) 
 {
 
